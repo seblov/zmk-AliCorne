@@ -75,7 +75,7 @@
                                           &kp LGUI  &mo 1  &kp SPACE                                            &kp_kp LEFT_SHIFT ENTER  &kp_mo 2 BACKSPACE  &mo 0
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         symbols {
