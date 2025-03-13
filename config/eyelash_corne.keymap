@@ -81,10 +81,10 @@
         symbols {
             display-name = "num sym";
             bindings = <
-&kp TAB           &kp NB_EXCLAMATION   &kp NB_DQT           &kp NB_HASH           &kp NB_DLLR              &kp NB_PERCENT                                          &mmv MOVE_UP                     &kp NB_N7  &kp NB_N8  &kp NB_N9  &none       &kp_kp NB_PLUS NB_EQUAL  &kp DEL
-&kp LEFT_SHIFT    &kp NB_AMPERSAND     &kp NB_SLASH         &kp NB_AT             &kp NB_LEFT_PARENTHESIS  &kp NB_RIGHT_PARENTHESIS                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NB_N4  &kp NB_N5  &kp NB_N6  &none       &kp NB_UMLAUT            &none
-&kp NB_LESS_THAN  &kp NB_GREATER_THAN  &kp NB_LEFT_BRACKET  &kp NB_RIGHT_BRACKET  &kp NB_LEFT_BRACE        &kp NB_RIGHT_BRACE        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp NB_N1  &kp NB_N2  &kp NB_N3  &kp NB_DOT  &none                    &kp NB_GRAVE
-                                                            &trans                &trans                   &trans                                                                                   &kp NB_N0  &kp DEL    &trans
+&kp TAB           &kp NB_EXCLAMATION   &kp NB_DQT           &kp NB_HASH           &kp NB_DLLR              &kp NB_PERCENT                                      &mmv MOVE_UP                     &kp NB_N7  &kp NB_N8  &kp NB_N9  &none       &kp_kp NB_PLUS NB_EQUAL  &kp DEL
+&kp LEFT_SHIFT    &kp NB_AMPERSAND     &kp NB_SLASH         &kp NB_AT             &kp NB_LEFT_PARENTHESIS  &kp NB_RIGHT_PARENTHESIS            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NB_N4  &kp NB_N5  &kp NB_N6  &none       &kp NB_UMLAUT            &none
+&kp NB_LESS_THAN  &kp NB_GREATER_THAN  &kp NB_LEFT_BRACKET  &kp NB_RIGHT_BRACKET  &kp NB_LEFT_BRACE        &kp NB_RIGHT_BRACE        &kp F2                    &mmv MOVE_DOWN                   &kp NB_N1  &kp NB_N2  &kp NB_N3  &kp NB_DOT  &none                    &kp NB_GRAVE
+                                                            &trans                &trans                   &trans                                                                               &kp NB_N0  &kp DEL    &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
